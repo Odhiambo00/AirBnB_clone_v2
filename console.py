@@ -14,7 +14,7 @@ from models.city import City
 from models.amenity import Amenity
 from models.review import Review
 from datetime import datetime
-import shlex # to be used for splitting line along spaces except in double quotes
+import shlex  # to be used for splitting line along spaces except double quotes
 
 
 classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
